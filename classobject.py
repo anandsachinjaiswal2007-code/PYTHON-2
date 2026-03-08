@@ -5,8 +5,8 @@ class Car:
        self.year = year
     def display_info(self):
         print(self.brand, self.model, self.year)
-c1=Car("MARUTI SUZUKI", "BALENO", 2024)
-c2=Car("MAHINDRA", "XUV700", 2020)
+c1=Car("TOYOTA", "INNOVA", 2022)
+c2=Car("TATA", "THAR", 2024)
 c1.display_info()
 
 c2.display_info()
